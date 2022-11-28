@@ -9,6 +9,8 @@ body {
 }
 
 .navbar {
+    display: flex;
+    flex-direction: row;
     background-color: #212529;
     color: white;
     padding: 25px 60px;
