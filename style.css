@@ -62,3 +62,10 @@ body {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 26px;
+}
