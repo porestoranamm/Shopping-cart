@@ -27,7 +27,7 @@ let shopItemsData = [{
 }]
 
 let generateShop = () => {
-    return (shop.innerHTML= );
+    return (shop.innerHTML= shopItemsData.map((x)=>{}));
 };
 
 generateShop();
