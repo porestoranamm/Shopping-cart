@@ -71,7 +71,7 @@ let increment = (id) => {
     }
 
     console.log(basket);
-    update();
+    update(selectedItem.id);
 };
 let decrement = (id) => {
     let selectedItem = id;
@@ -82,9 +82,11 @@ let decrement = (id) => {
         search.item -= 1;
     }
     console.log(basket);
+    update();
 };
-    let update = () => {
-console.log("the update function is running");
+    let update = (id) => {
+        let search = basket.find(()=> x.id === id);
+        console.log(id);
 };
 
 
