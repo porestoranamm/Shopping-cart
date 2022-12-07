@@ -26,6 +26,10 @@ let shopItemsData = [{
     img: "images/img-4.jpg"
 }]
 
+let basket = [{
+    id:"asdhaisdj", 
+    item: 1;
+}]; 
 
 let generateShop = () => {
     return (shop.innerHTML= shopItemsData
@@ -55,9 +59,11 @@ let generateShop = () => {
 generateShop();
 
 let increment = (id) => {
-    console.log(id)
+    let selectedItem = id;
+    console.log(selectedItem.id)
 };
 let decrement = (id) => {
-    console.log(id)
+    let selectedItem = id;
+    console.log(selectedItem.id)
 };
 let update = () => {};
