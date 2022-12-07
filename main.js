@@ -26,13 +26,14 @@ let shopItemsData = [{
     img: "images/img-4.jpg"
 }]
 
+
 let generateShop = () => {
     return (shop.innerHTML= shopItemsData
         .map((x)=>{
             let{id, name, price, desc, img} = x
         return `
-        <div class="item">
-            <img width="220" src="${x.img}" alt="">
+        <div class="i${id}">
+            <img width="220" src="${img}" alt="">
             <div class="details">
                 <h3>${name}</h3>
                 <p>${desc}</p>
