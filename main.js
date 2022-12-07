@@ -27,8 +27,7 @@ let shopItemsData = [{
 }]
 
 let basket = [{
-    id:"asdhaisdj", 
-    item: 1,
+   
 }]; 
 
 let generateShop = () => {
@@ -60,7 +59,13 @@ generateShop();
 
 let increment = (id) => {
     let selectedItem = id;
-    console.log(selectedItem.id)
+    let search = basket.find((x)=> x.id === selectedItem.id);
+
+    if()
+    basket.push({
+        id: selectedItem.id,
+        item: 1,
+    })
 };
 let decrement = (id) => {
     let selectedItem = id;
