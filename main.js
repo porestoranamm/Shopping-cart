@@ -28,7 +28,7 @@ let shopItemsData = [{
 
 let basket = [{
     id:"asdhaisdj", 
-    item: 1;
+    item: 1,
 }]; 
 
 let generateShop = () => {
