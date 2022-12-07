@@ -66,14 +66,14 @@ let increment = (id) => {
         id: selectedItem.id,
         item: 1,
     });
-}
-    else {
+} else {
         search.item += 1;
     }
 
     console.log(basket);
+    update();
 };
-let decrement =(id) => {
+let decrement = (id) => {
     let selectedItem = id;
     let search = basket.find((x)=> x.id === selectedItem.id);
 
