@@ -83,6 +83,9 @@ let decrement =(id) => {
     }
     console.log(basket);
 };
+    let update = () => {
+console.log("the update function is running");
+};
 
 
-let update = () => {};
+
