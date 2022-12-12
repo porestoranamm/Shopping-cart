@@ -101,7 +101,9 @@ let decrement = (id) => {
 let calculation = () => {
     let cartIcon = document.getElementById("cartAmount"); 
     
-    cartIcon.innerHTML = basket.map(((x)=> x.item).reduce((x, y) => x + y, 0));
-}
+    cartIcon.innerHTML = basket.map((x)=> x.item).reduce((x, y) => x + y, 0);
+};
+
+calculation();
 
 
