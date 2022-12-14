@@ -73,7 +73,7 @@ let increment = (id) => {
 
     update(selectedItem.id);
     localStorage.setItem("data", JSON.stringify(basket));
-   
+
 };
 let decrement = (id) => {
     let selectedItem = id;
